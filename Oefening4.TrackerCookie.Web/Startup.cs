@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Oefening4.TrackerCookie.Web.Middleware;
 
 namespace Oefening4.TrackerCookie.Web
 {
@@ -26,15 +27,10 @@ namespace Oefening4.TrackerCookie.Web
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseMiddleware<TrackerCookieMiddleware>();
             app.UseRouting();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
         }
     }
 }
