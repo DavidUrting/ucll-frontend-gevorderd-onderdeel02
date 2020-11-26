@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening1.UrlChecker.Console", "Oefening1.UrlChecker.Console\Oefening1.UrlChecker.Console.csproj", "{4F611DD4-B95B-4D27-BA3E-CA59DBF29E7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening1.UrlChecker.Console", "Oefening1.UrlChecker.Console\Oefening1.UrlChecker.Console.csproj", "{4F611DD4-B95B-4D27-BA3E-CA59DBF29E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening3.Header.Web", "Oefening3.Header.Web\Oefening3.Header.Web.csproj", "{40FFA3DB-C279-403D-8506-F8806D5310E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening3.Header.Web", "Oefening3.Header.Web\Oefening3.Header.Web.csproj", "{40FFA3DB-C279-403D-8506-F8806D5310E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening2.UrlChecker.Web", "Oefening2.UrlChecker.Web\Oefening2.UrlChecker.Web.csproj", "{90675579-6C0B-4F89-BBD7-5A177C2B86DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening2.UrlChecker.Web", "Oefening2.UrlChecker.Web\Oefening2.UrlChecker.Web.csproj", "{90675579-6C0B-4F89-BBD7-5A177C2B86DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening4.TrackerCookie.Web", "Oefening4.TrackerCookie.Web\Oefening4.TrackerCookie.Web.csproj", "{1C7A8BDD-E253-448D-A9CC-D5BDFE9F4FEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening4.TrackerCookie.Web", "Oefening4.TrackerCookie.Web\Oefening4.TrackerCookie.Web.csproj", "{1C7A8BDD-E253-448D-A9CC-D5BDFE9F4FEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
